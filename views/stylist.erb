@@ -1,12 +1,14 @@
 <h2><%= @stylist.stylist_name() %></h2>
 
+<hr>
+
 <% if @stylist.clients().any?() %>
   <h3>Client list:</h3>
-  <ul>
+  <ol>
     <% @stylist.clients().each() do |client| %>
       <li><%= client.client_name() %></li>
     <% end %>
-  </ul>
+  </ol>
 <%else %>
   <p>There are no clients yet!</p>
 <% end %>
