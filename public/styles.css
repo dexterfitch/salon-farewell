@@ -1,0 +1,67 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  background-color: #FFF9E3;
+  color: #444;
+}
+
+h1 {
+  font-family: 'Molle', cursive;
+  font-style: italic;
+  font-size: 64px;
+}
+
+h1, h2 {
+  color: #7A2958;
+  text-shadow: 1.5px 1.5px #FFF3C5;
+}
+
+h2, h3 {
+  font-family: 'Yanone Kaffeesatz', serif;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+a {
+  color: #59103B;
+}
+
+a:hover {
+  color: #59103B;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #59103B;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0.25em;
+}
+
+/*===*/
+
+.container {
+  margin-top: 10%;
+  width: 55%;
+  background-color: #81A8A2;
+}
+
+.form-entry {
+  margin: 1em;
+}
+
+.return {
+  text-align: right;
+}
